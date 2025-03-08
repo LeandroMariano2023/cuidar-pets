@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url(imagem/pet_e_tutora.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    padding: 59px 62px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 26px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.container p{
+    color: black;
+    padding-bottom: 50px;
+}
+
+.inputBox{
+    text-align: center;
+    padding-bottom: 50px;
+} 
+
+.inputBox input{
+    width: 350px;
+    height: 25px;
+    
+}
+
+.enviar{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    border-radius:40px ;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    margin-top: 20px;
+}
+
+.enviar:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: #fff;
+    transition: .5s;
+}
+
+

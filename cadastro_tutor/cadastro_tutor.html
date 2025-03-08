@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <input type="text" placeholder="CPF" required>
+            <input type="text" placeholder="Nome completo" required>
+            <select required>
+                <option>Gênero</option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select>
+            <input type="date" placeholder="Data de nascimento" required>
+            <input type="tel" placeholder="Telefone" required>
+            <div class="cep-container">
+                <input type="text" placeholder="CEP" required>
+                <span class="info">Não sabe seu CEP? <a
+                        href="https://buscacepinter.correios.com.br/app/endereco/index.php?t">Buscar nos
+                        Correios</a></span>
+            </div>
+            <input type="text" placeholder="Estado" required>
+            <input type="text" placeholder="Cidade" required>
+            <input type="text" placeholder="Bairro" required>
+            <input type="text" placeholder="Logradouro" required>
+            <input type="email" placeholder="E-mail" required>
+            <input type="email" placeholder="Confirmar E-mail" required>
+            <input type="password" placeholder="Senha" required>
+            <input type="password" placeholder="Confirmar senha" required>
+            <div class="password-rules">
+                A senha deve conter:<br>
+                - Pelo menos 1 caractere em maiúsculo<br>
+                - Pelo menos 1 caractere em minúsculo<br>
+                - Pelo menos 1 caractere especial<br>
+                - Pelo menos 1 número<br>
+                - Pelo menos 8 caracteres<br>
+                - No máximo 20 caracteres
+            </div>
+            <button type="submit" class="btn">Continuar</button>
+            <button type="button" class="btn cancel">Cancelar</button>
+        </form>
+    </div>
+</body>
+
+</html>

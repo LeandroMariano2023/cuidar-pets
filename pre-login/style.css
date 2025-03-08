@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3F424B;
+}
+
+header .logo {
+    height: 150px;
+}
+
+.navegation ul {
+    display: flex;
+    gap: 190px;
+    padding-right: 50px;
+}
+
+.navegation li a {
+    font-weight: 500;
+    font-size: 30px;
+    color: #4FD194;
+}
+
+
+
+.button {
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #008000;
+    text-shadow: 1px 1px 1px #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #ccc;
+    border-color: #999;
+}
+
+.background {
+    background-image: url(img/cachorro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
