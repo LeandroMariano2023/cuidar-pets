@@ -55,8 +55,8 @@ body {
     font-family: 'Playfair Display', 'Inter', sans-serif;
     background-color: #85868B;
     color: #858668;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     text-align: center; /* Centraliza os elementos */
 }
 
@@ -66,17 +66,18 @@ h1 {
     font-size: 28px;
 }
 
-/* Estilo das imagens */
-img {
-    width: 300px;
-    border-radius: 10px; /* Deixa as bordas arredondadas */
-    margin: 10px;
-}
-
 /* Estilo dos subtítulos */
 h2 {
     color: #4fd194;
     border-bottom: 2px solid #9c9ca4;
     padding-bottom: 5px;
     margin-top: 20px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.conteudo p{
+    color: black;
 }
