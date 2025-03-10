@@ -55,17 +55,41 @@ header .logo {
 /* Estilo global da página */
 body {
     font-family: 'Playfair Display', 'Inter', sans-serif;
-    background-color:black;
-    color: #333;
+    background-color:#85868B;
     text-align: center; /* Centraliza os elementos */
+    color: black;
 }
 
 /* Estilo do título principal */
 h1 {
-    color: #858682;
+    color: black;
     font-size: 28px;
 }
 
+.visitas{
+    
+    border-top: 2px solid #9c9ca4;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.passeio{
+    
+    border-top: 2px solid #9c9ca4;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.cuidados{
+   
+    border-top: 2px solid #9c9ca4;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+.acompanhamento{
+   
+    border-top: 2px solid #9c9ca4;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
 /* Estilo das imagens */
 img {
     width: 300px;
@@ -73,10 +97,3 @@ img {
     margin: 10px;
 }
 
-/* Estilo dos subtítulos */
-h2 {
-    color: #858686;
-    border-bottom: 2px solid #9c9ca4;
-    padding-bottom: 5px;
-    margin-top: 20px;
-}
