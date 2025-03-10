@@ -1,0 +1,123 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    /* Evita rolagem desnecessária */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3F424B;
+}
+
+header .logo {
+    height: 150px;
+}
+
+.navegation ul {
+    display: flex;
+    gap: 190px;
+    padding-right: 50px;
+}
+
+.navegation li a {
+    font-weight: 500;
+    font-size: 30px;
+    color: #4FD194;
+}
+
+
+
+.button {
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #008000;
+    text-shadow: 1px 1px 1px #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #ccc;
+    border-color: #999;
+}
+
+.background {
+    background-image: url(img/cachorro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.avatar {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+
+.avatar1 {
+    color: #4FD194;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Playfair Display;
+
+
+}
+
+ul {
+    align-items: center;
+}
+
+.welcome {
+    font-size: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4FD194;
+    text-shadow: black 3px 3px;
+    text-align: center;
+}
+
+.racao {
+    height: 430px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.racao2 {
+    height: 430px;
+    text-align: right;
+    float: right;
+    margin-left: 20px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.racao,
+.racao2 {
+    align-items: flex-end;
+}
