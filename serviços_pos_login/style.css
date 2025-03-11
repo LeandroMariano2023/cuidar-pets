@@ -1,0 +1,136 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    /* Evita rolagem desnecessária */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3F424B;
+}
+
+header .logo {
+    height: 150px;
+}
+
+.navegation ul {
+    display: flex;
+    gap: 190px;
+    padding-right: 50px;
+}
+
+.navegation li a {
+    font-weight: 500;
+    font-size: 30px;
+    color: #4FD194;
+}
+
+.button {
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    background: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #008000;
+    text-shadow: 1px 1px 1px #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #ccc;
+    border-color: #999;
+}
+
+.background {
+    background-image: url(img/cachorro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.avatar {
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+.avatar1 {
+    color: #4FD194;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Playfair Display;
+
+
+}
+
+ul {
+    align-items: center;
+}
+
+.navegation ul li a:hover {
+    text-decoration: underline;
+    /* Adiciona o sublinhado ao passar o mouse */
+}
+
+.navegation ul li a:active {
+    text-decoration: underline;
+    /* Adiciona o sublinhado quando o link é clicado */
+}
+
+.navegation ul li a:focus {
+    text-decoration: underline;
+    /* Adiciona o sublinhado quando o link está em foco */
+}
+
+.navegation ul li:hover {
+    transform: scale(1.3);
+    background: linear-gradient(to bottom, rgb(201, 100, 12), rgba(0, 0, 0, 0.1));
+    transition: transform 0.4s ease-in-out, background 0.4s ease-in-out;
+    /* Suaviza o efeito de transição */
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #85868B;
+    height: 100vh;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    height:70%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.dish-description {
+    color: #434343;
+    text-align: center;
+}
