@@ -25,7 +25,7 @@ header .logo {
 
 .navegation ul {
     display: flex;
-    gap: 190px;
+    gap: 290px;
     padding-right: 50px;
 }
 
@@ -69,10 +69,12 @@ header .logo {
     font-size: 150px;
     color: #59A52C;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 3px 3px;
 }
 
 .background p{
     font-size: 60px;
     text-align: center;
     color: #59A52C;
+    text-shadow: black 3px 3px;
 }
