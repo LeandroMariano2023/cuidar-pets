@@ -17,26 +17,31 @@ html {
 }
 
 header {
+    width: 100%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #3F424B;
+    position: fixed;
 }
 
 header .logo {
-    height: 150px;
+    margin-left: 50px;
+    width: 60px;
+    height: 50px;
 }
 
 .navegation ul {
     display: flex;
-    gap: 190px;
+    gap: 490px;
     padding-right: 50px;
 }
 
 .navegation li a {
     font-weight: 500;
     font-size: 30px;
-    color: #4FD194;
+    color: #59A52C;
 }
 
 .button {
@@ -108,7 +113,8 @@ ul {
     /* Suaviza o efeito de transição */
 }
 
-main{
+main {
+    padding-top: 150px;
     display: flex;
     justify-content: space-between;
     background-color: #85868B;
@@ -122,15 +128,17 @@ main{
     border-radius: 20px;
     gap: 18px;
     width: 25%;
-    height:70%;
+    height: 70%;
     padding: 20px;
     margin: 20px;
     background-color: #ffffff;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    margin-bottom: 150px;
 }
 
 .dish-description {
     color: #434343;
     text-align: center;
+    padding-bottom: 150px;
 }

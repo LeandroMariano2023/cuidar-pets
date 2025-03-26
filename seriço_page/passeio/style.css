@@ -17,26 +17,31 @@ html {
 }
 
 header {
+    width: 100%;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #3F424B;
+    position: fixed;
 }
 
 header .logo {
-    height: 150px;
+    margin-left: 50px;
+    width: 60px;
+    height: 50px;
 }
 
 .navegation ul {
     display: flex;
-    gap: 190px;
+    gap: 490px;
     padding-right: 50px;
 }
 
 .navegation li a {
     font-weight: 500;
     font-size: 30px;
-    color: #4FD194;
+    color: #59A52C;
 }
 
 .button {
@@ -111,9 +116,10 @@ ul {
 main{
     background-color: #3f424b6c;
     height: 100vh;
+    padding-top: 150px;
 }
 main h1{
-    padding-top: 15px;
+    padding-bottom: 150px;
     text-align: center;
     font-size: 50px;
 }
